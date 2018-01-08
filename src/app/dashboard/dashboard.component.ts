@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchService } from './search.service';
 import { Subject } from 'rxjs/Subject';
 import { Product } from '../share/service/product';
 
