@@ -1,0 +1,8 @@
+<input (keyup)="searchSubject.next($event.target.value)">
+
+<ul class="products">
+  <li *ngFor="let product of products">
+    {{product.name}}
+    <input name="rank" ngModel>
+  </li>
+</ul>
